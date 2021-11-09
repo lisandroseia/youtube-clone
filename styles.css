@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
+
+
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: #282828fa;
+}
+#section1{
+    color: #fff;
+    display: flex;
+    padding: 1%;
+    margin: 1%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#section1{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#section1 > i{
+font-size: 30px;
+}
+
+#logo{
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    margin-left: 10%;
+}
+
+#logo > img{
+    padding: 0% 3% 0% 5%;
+}
+
+#logo > p{
+    padding-top: 7px;
+}
+
+#searchform{
+    border-radius: 8px;
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+
+.field>input[type=text],
+.field>button {
+    color: #fff;
+    outline: none;
+    border: 0px;
+    text-decoration: none;
+    background-color: #1b1b1bfa;
+  display:block;
+  width: 32px;
+  font:80% 'Montserrat Alternates';
+}
+
+.field>input[type=text] {
+border-radius: 8px 0px 0px 8px;
+    width: 500px;
+    flex:1;
+    padding:0.6em;
+  }
+
+  .field>input[type=text]::placeholder{
+      font-weight: 60;
+    font-family: 'Zen Old Mincho', serif;
+      color: rgb(182, 178, 178);
+      font-size: 15px;
+  }
+
+  .field>button{
+    border-radius: 0px 8px 8px 0px;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+    padding:0% 6%;
+    border:none;
+  }
+
+  .field>button>i{
+      font-size: 160%;
+  }
+
+  .clickable:hover{
+cursor: pointer;
+  }
+
+  #acces{
+      display: flex;
+      margin-right: 4%;
+  }
+
+
+  .acc{
+      font-size: 23px;
+      color: #fff;
+      margin: 0% 10% 0% 10%;
+  }
+
+  #main-container{
+      display: flex;
+  }
+  
+  #video-section{
+      margin: 4% 2% 5% 10%;
+  }
+
+  h1{
+    color: rgb(233, 232, 232);
+      font-weight: bold;
+      font-size: 20px;
+  }
+
+  #video{
+      width:55vw;
+      height: 70vh;
+  }
+
+  #main{
+      width: 63vw;
+      height: 100vh;
+  }
+  
+  #aside{
+      width: 37vw;
+      height: 100vh;
+  }
+
+  #video-data{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      color: rgb(172, 167, 167);
+      border-bottom: .01rem solid rgb(32, 32, 32) ;
+  }
+
+  #left-data{
+      font-weight: bold;
+      font-size: 13px;
+  }
+
+#right-data{
+    display: flex;
+    padding-right: 4%;
+}
+
+.dt{
+    display: flex;
+    padding: 0% 1% ;
+}
+
+.dt > button{
+    padding-left: 1rem;
+    display: flex;
+    height: 100%;
+    border: none;
+    color: rgb(172, 167, 167);
+    background-color: black;
+}
+
+.dt > button > i{
+    padding: 0% 5%;
+    font-size: 20px;
+}
+#right-data > #likes > button > i{
+    font-size: 18px;
+    padding-right:10% ;
+}
+
+#likes{
+    height: 100%;
+    border-bottom: 1px solid rgb(172, 167, 167);
+}
+
+#right-data > button{
+    align-content: center;
+}
+
+
+#aside-header{
+    margin-left: 5%;
+    margin-top: 6%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+#autoplay{
+    align-items: center;
+    align-content: center;
+    font-weight: bolder;
+    font-size: 12px;
+    color: #868383fa;
+    display: flex;
+    margin: 0% 15% 0% 0%;
+}
+
+#autoplay > div{
+    text-align: center;
+    
+}
+
+#autoplay > div > input{
+    margin-right: 1px; 
+    margin-bottom: 15px;
+    font-size: 17px;
+    background-color: #555353fa;
+}
+
+#autoplay > p{
+margin-right: 20px;
+}
+
+.aside-container{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.aside-container:hover{
+    background-color: #1b1b1bfa;
+}
+
+.img-cont > img{
+    width: 220px;
+    margin-right: 8px;
+}
+
+.rcmnd-info{
+    text-align: start;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rcmnd-info > h2{
+font-size: 16px;
+color: #fff;
+}
+
+.author, .views{
+    color: #8f8a8afa;
+    font-size: 13px;
+    padding:0%;
+}
+
+#first{
+    border-bottom: 1px solid #1b1b1bfa;
+    padding-bottom: 20px;
+}
+
